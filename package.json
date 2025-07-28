@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "backend project in javascript",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
@@ -15,6 +15,7 @@
   "author": "Mohammad Razim",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
   }
 }
