@@ -19,4 +19,11 @@ app.use(express.static("public")); //accepts public assets, also that is the lin
 
 app.use(cookieParser()); //setting the browser cookie
 
+//routes
+import UserRouter from "./routes/user.routes.js";
+
+//routes declaration
+
+app.use("/api/v1/users", UserRouter);//these are standard practice
+
 export { app };
