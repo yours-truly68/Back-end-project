@@ -50,7 +50,7 @@ router
 
 router
   .route("/cover-image")
-  .patch(veryJWT, upload.single("/coverImage"), updateUserCoverImage);
+  .patch(veryJWT, upload.single("coverImage"), updateUserCoverImage);
 
 router.route("/c/:username").get(veryJWT, getUserChannelProfile);
 
